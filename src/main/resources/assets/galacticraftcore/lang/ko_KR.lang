@@ -54,8 +54,8 @@ item.key.T1.name=1티어 던전 열쇠
 item.buggymat.wheel.name=버기 바퀴
 item.buggymat.seat.name=버기 시트
 item.buggymat.storage.name=버기 상자
-item.basicItem.solar_module_0.name=태양열 모듈
-item.basicItem.solar_module_1.name=태양열 전지판
+item.basicItem.solar_module_0.name=태양광 모듈
+item.basicItem.solar_module_1.name=태양광 전지판
 item.basicItem.ingotCopper.name=구리 주괴
 item.basicItem.ingotTin.name=주석 주괴
 item.basicItem.ingotAluminum.name=알루미늄 주괴
@@ -184,7 +184,7 @@ tile.spinThruster.name=회전반동 추력기
 tile.viewScreen.name=표시 화면
 tile.telemetry.name=원격측정 유닛
 tile.spaceStationBase.name=우주정거장 도착장
-tile.dish.name=Communications Dish ##NEEDS TRANSLATE##
+tile.dish.name=접시 안테나
 
 # DECOBLOCKS
 tile.tinStairs1.name=장식형 주석 계단
@@ -229,7 +229,7 @@ death.attack.oxygenSuffocation=%1$s 님이 산소 부족으로 그만...
 death.attack.thermal=%1$s 님, 열보호 장비를 잊으셨군요.
 
 # GALAXIES
-galaxy.blockyway.name=믄하수 (블록 은하)
+galaxy.blockyway.name=은하수 (블록 은하)
 galaxy.milkyWay=은하수 (우리 은하)
 
 # OTHER
@@ -403,7 +403,7 @@ gui.rocket.inv.name=인벤토리 / 연료
 gui.rocket.warning.nogyroscope=수상한 힘이 감지되었습니다. 회전계가 미친듯이 돌아갑니다!
 gui.rocket.warning.noparachute=낙하산이 없네요! 다시 한번 발사를 누를경우, 다시 돌아올수 없는 길을 가게됩니다!
 gui.rocket.warning.nofuel=먼저 연료를 주입해야합니다!
-gui.chest.warning.wrongkey=이 상자를 열려면 아마 %s티어 던전 열쇠가 필요할거야
+gui.chest.warning.wrongkey=이 상자를 열려면 아마 %s티어 던전 열쇠가 필요합니다.
 gui.frequencymodule.warning0=작동시:
 gui.frequencymodule.warning1=이와 같은 요구조건을 필요로 합니다.
 gui.tracking.message=추적 활성화 완료. 링크를 활성하기위해 원격측정 유닛을 오른쪽 클릭해야 합니다.
@@ -483,14 +483,14 @@ gui.oxygenCompressor.slot.desc.1=탱크를 충전 시킬 수 있습니다.
 gui.oxygenDecompressor.slot.desc.0=감압기 탱크 슬롯: 이곳에서 산소
 gui.oxygenDecompressor.slot.desc.1=탱크를 비울 수 있습니다.
 gui.rocket.onLaunchpad=On launchpad ##NEEDS TRANSLATE##
-gui.rocket.countdown=Countdown ##NEEDS TRANSLATE##
-gui.rocket.launched=Launched ##NEEDS TRANSLATE##
-gui.rocket.height=Height ##NEEDS TRANSLATE##
-gui.rocket.speed=Speed ##NEEDS TRANSLATE##
-gui.player.health=Health ##NEEDS TRANSLATE##
-gui.player.food=Food ##NEEDS TRANSLATE##
-gui.player.bpm=bpm ##NEEDS TRANSLATE##
-gui.player.ouch=ouch!!!! ##NEEDS TRANSLATE##
+gui.rocket.countdown=카운트 다운
+gui.rocket.launched=발사
+gui.rocket.height=높이
+gui.rocket.speed=속도
+gui.player.health=체력
+gui.player.food=음식
+gui.player.bpm=bpm
+gui.player.ouch=아야!!!!
 
 gui.spaceRace.create.close.name=닫기
 gui.spaceRace.create.back.name=뒤로
